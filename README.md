@@ -1,53 +1,33 @@
-# Welcome to Remix!
+# Cryptography Tools
 
-- [Remix Docs](https://remix.run/docs)
+<div align="center">
+<img alt="Cryptography Tools" src="./public/docs/logo.svg" w="100" h="100">
+</div>
 
-## Development
+## To Run the app on local
 
 From your terminal:
 
-```sh
-npm run dev
-```
-
-This starts your app in development mode, rebuilding assets on file changes.
-
-## Deployment
-
-First, build your app for production:
+### Clone the repo
 
 ```sh
-npm run build
+git clone https://github.com/shvam0000/crypto-tools
 ```
 
-Then run the app in production mode:
+### Install all the dependencies
 
 ```sh
-npm start
+npm i / yarn install
 ```
 
-Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `remix build`
-
-- `build/`
-- `public/build/`
-
-### Using a Template
-
-When you ran `npx create-remix@latest` there were a few choices for hosting. You can run that again to create a new project, then copy over your `app/` folder to the new project that's pre-configured for your target server.
+### Run the app
 
 ```sh
-cd ..
-# create a new project, and pick a pre-configured host
-npx create-remix@latest
-cd my-new-remix-app
-# remove the new project's app (not the old one!)
-rm -rf app
-# copy your app over
-cp -R ../my-old-remix-app/app app
+npm run dev / yarn dev
 ```
+
+### TODO
+
+[ ] Add helper functions for other ciphers
+[ ] Add streamlit app
+[ ] Responsive for mobiles
