@@ -7,16 +7,16 @@ const Hero = () => {
         Cryptography Tools
       </h1>
       <div className='flex items-center justify-evenly px-24 pt-7 text-xl font-medium text-gray-400'>
-        <span className='transform cursor-pointer border-b-2 border-transparent transition hover:scale-110  hover:border-b-2 hover:border-[#38BDF8] hover:text-white focus:text-white'>
+        <span className='transform cursor-pointer border-b-2 border-transparent border-[#38BDF8] transition  hover:scale-110 hover:border-b-2 hover:text-white '>
           <Link to='/tools/rot13'>Rot 13</Link>
         </span>
-        <span className='transform cursor-pointer border-b-2 border-transparent transition hover:scale-110  hover:border-b-2 hover:border-[#38BDF8] hover:text-white focus:text-white'>
+        <span className='transform cursor-pointer border-b-2 border-transparent border-[#38BDF8] transition  hover:scale-110 hover:border-b-2 hover:text-white '>
           <Link to='/tools/ceasarcipher'>Ceasar Cipher</Link>
         </span>
-        <span className='transform cursor-pointer border-b-2 border-transparent transition hover:scale-110  hover:border-b-2 hover:border-[#38BDF8] hover:text-white focus:text-white'>
+        <span className='transform cursor-pointer border-b-2 border-transparent border-[#38BDF8] transition  hover:scale-110 hover:border-b-2 hover:text-white '>
           <Link to='/tools/hillcipher'>Hill Cipher</Link>
         </span>
-        <span className='transform cursor-pointer border-b-2 border-transparent transition hover:scale-110  hover:border-b-2 hover:border-[#38BDF8] hover:text-white focus:text-white'>
+        <span className='transform cursor-pointer border-b-2 border-transparent border-[#38BDF8] transition  hover:scale-110 hover:border-b-2 hover:text-white '>
           <Link to='/tools/monoalphcipher'>Mono Alphabetic Cipher</Link>
         </span>
       </div>
