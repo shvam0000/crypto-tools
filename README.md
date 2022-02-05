@@ -26,6 +26,14 @@ npm i / yarn install
 npm run dev / yarn dev
 ```
 
+## Preview
+
+<img src="./public/docs/Screenshot (9).png">
+<img src="./public/docs/Screenshot (10).png">
+<img src="./public/docs/Screenshot (11).png">
+<img src="./public/docs/Screenshot (12).png">
+<img src="./public/docs/Screenshot (13).png">
+
 ### TODO
 
 - [ ] Add helper functions for other ciphers
