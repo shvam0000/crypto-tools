@@ -6,11 +6,11 @@ interface ToolsLayoutProps {
 
 const ToolsLayout: React.FC<ToolsLayoutProps> = ({ children, ...props }) => {
   return (
-    <div className='my-4 py-4 mx-24 h-screen  bg-[#090d1b] rounded-t-3xl'>
-      <div className='flex justify-center items-center text-xl text-white font-semibold py-7'>
+    <div className='my-4 mx-24 h-screen rounded-3xl  bg-[#090d1b] py-4'>
+      <div className='flex items-center justify-center py-4 text-xl font-semibold text-white'>
         {props.heading}
       </div>
-      <div className='py-2'>{children}</div>
+      <div>{children}</div>
     </div>
   );
 };

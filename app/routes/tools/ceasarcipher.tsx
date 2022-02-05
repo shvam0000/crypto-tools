@@ -1,7 +1,7 @@
-import React from 'react';
+import { ComingSoon } from '~/components/shared';
 
 const CeaserCipher = () => {
-  return <div>this is ceaser cipher</div>;
+  return <ComingSoon />;
 };
 
 export default CeaserCipher;

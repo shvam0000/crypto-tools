@@ -1,7 +1,7 @@
-import React from 'react';
+import { ComingSoon } from '~/components/shared';
 
 const monoalphcipher = () => {
-  return <div>monoalphcipher</div>;
+  return <ComingSoon />;
 };
 
 export default monoalphcipher;

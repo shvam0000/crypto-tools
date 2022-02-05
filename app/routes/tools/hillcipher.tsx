@@ -1,7 +1,7 @@
-import React from 'react';
+import { ComingSoon } from '~/components/shared';
 
 const hillcipher = () => {
-  return <div>hill cipher</div>;
+  return <ComingSoon />;
 };
 
 export default hillcipher;
