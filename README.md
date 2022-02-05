@@ -28,6 +28,6 @@ npm run dev / yarn dev
 
 ### TODO
 
-[ ] Add helper functions for other ciphers
-[ ] Add streamlit app
-[ ] Responsive for mobiles
+- [ ] Add helper functions for other ciphers
+- [ ] Add streamlit app
+- [ ] Responsive for mobiles
