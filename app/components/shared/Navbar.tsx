@@ -3,24 +3,24 @@ import { Link } from 'remix';
 
 const Navbar = () => {
   return (
-    <div className='flex  justify-between items-center px-28 py-4 text-white'>
+    <div className='flex  items-center justify-between px-28 py-4 text-white'>
       <Link to='/'>
         <div className='flex items-center justify-center text-xl font-bold'>
-          <span className='text-3xl text-[#38BDF8] mx-2'>
+          <span className='mx-2 text-3xl text-[#38BDF8]'>
             <Logo />
           </span>
           <span>Cryptography Tools</span>
         </div>
       </Link>
-      <div className='flex justify-center items-center font-semibold '>
+      <div className='flex items-center justify-center font-semibold '>
         <span className='mx-2'>
-          <Link to='/tools'>Tools</Link>
+          <Link to='/tools/rot13'>Tools</Link>
         </span>
         <span className='mx-2'>
           <Link to='/stegnography'>Stegnography</Link>
         </span>
         <span className='mx-2'>
-          <Link to='/tools'>About Us</Link>
+          <Link to='/aboutus'>About Us</Link>
         </span>
         <span className='mx-2 text-3xl text-gray-600'>
           <a href='https://github.com/shvam0000/crypto-tools'>
