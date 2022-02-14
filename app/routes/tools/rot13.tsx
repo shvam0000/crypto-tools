@@ -2,6 +2,7 @@ import { Form, useActionData } from 'remix';
 import { ToolsLayout } from '~/components/shared';
 import { rot13 } from '~/utils/helpers';
 
+//@ts-ignore
 export async function action({ request }): Promise<{ result: string }> {
   const body = await request.formData();
   const name = body.get('visitorsName');

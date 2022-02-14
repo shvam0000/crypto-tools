@@ -18,7 +18,9 @@ const Profile: React.FC = () => {
         </p>
       </div>
       <div className='mt-4 flex justify-end'>
-        <a href='#' className='text-xl font-medium text-indigo-500'>
+        <a
+          href='https://github.com/shvam0000/'
+          className='text-xl font-medium text-indigo-500'>
           <Github />
         </a>
       </div>

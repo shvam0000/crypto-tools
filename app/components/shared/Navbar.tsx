@@ -17,7 +17,9 @@ const Navbar = () => {
           <Link to='/tools/rot13'>Tools</Link>
         </span>
         <span className='mx-2'>
-          <Link to='/stegnography'>Stegnography</Link>
+          <a href='https://share.streamlit.io/triztex/vapt/main/streamlit.py'>
+            Stegnography
+          </a>
         </span>
         <span className='mx-2'>
           <Link to='/aboutus'>About Us</Link>
